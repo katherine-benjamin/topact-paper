@@ -6,9 +6,13 @@ TopACT is necessary to run the code in this repository. You can install it with
 
 ```pip install git+https://gitlab.com/kfbenjamin/topact.git```.
 
+## Figure 1
+
+Code used to generate Figures 1E and 1F are included in the `Figure 1` directory.
+
 ## Synthetic data
 
-We include here, in the `Figure 2` directory, code for generating synthetic spatial data. We also include the 100 synthetic samples analyzed in the paper, as well as TopACT and RCTD predicted outputs on these samples as well as code to generate the corresponding parts of Figure 2 in the manuscript. Note that we do not include specific code used to generate these TopACT predictions at this time -- see the below note on clinical data.
+We include here, in the `Figure 2` directory, code for generating synthetic spatial data. The `syntheticdata` directory contains the synthetic ground truth cell type maps, TopACT predictions, and RCTD predictions analyzed in the paper. Code for producing Figure 2B, showing example classifications, and Figure 2C, showing the accuracies of these methods, is also included in the `Figure 2` directory. Note that we do not include specific code used to generate these TopACT predictions at this time -- see the below note on clinical data.
 
 ## Clinical data
 
