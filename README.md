@@ -1,4 +1,4 @@
-This repository contains some code used for the paper "Multiscale topology classifies and quantifies cell types in subcellular spatial transcriptomics". Please note that code requiring clinical data will be made available on publication.
+This repository contains some code used for the prepint "Multiscale topology classifies and quantifies cell types in subcellular spatial transcriptomics". Please note that code requiring clinical data will be made available on publication.
 
 The software package TopACT can be found separately: https://gitlab.com/kfbenjamin/topact
 
