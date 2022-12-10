@@ -6,6 +6,10 @@ TopACT is necessary to run the code in this repository. You can install it with
 
 ```pip install git+https://gitlab.com/kfbenjamin/topact.git```.
 
+## Synthetic data
+
+We include here, in the `Figure 2` directory, code for generating synthetic spatial data. We also include the 100 synthetic samples analyzed in the paper, as well as TopACT and RCTD predicted outputs on these samples. Note that we do not include specific code used to generate these TopACT predictions at this time -- see the below note on clinical data.
+
 ## Clinical data
 
 Clinical data for the preprint is currently not available. As such, this repository does not contain specific code used to produce TopACT predictions for either clinical or synthetic data (the latter requiring a clinical snRNA-seq reference data set). Clinical data, and all relevant code, will be made available on publication.
