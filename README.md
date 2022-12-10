@@ -8,7 +8,7 @@ TopACT is necessary to run the code in this repository. You can install it with
 
 ## Synthetic data
 
-We include here, in the `Figure 2` directory, code for generating synthetic spatial data. We also include the 100 synthetic samples analyzed in the paper, as well as TopACT and RCTD predicted outputs on these samples. Note that we do not include specific code used to generate these TopACT predictions at this time -- see the below note on clinical data.
+We include here, in the `Figure 2` directory, code for generating synthetic spatial data. We also include the 100 synthetic samples analyzed in the paper, as well as TopACT and RCTD predicted outputs on these samples as well as code to generate the corresponding parts of Figure 2 in the manuscript. Note that we do not include specific code used to generate these TopACT predictions at this time -- see the below note on clinical data.
 
 ## Clinical data
 
