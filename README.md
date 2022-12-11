@@ -12,7 +12,14 @@ Code used to generate Figures 1E and 1F are included in the `Figure 1` directory
 
 ## Synthetic data
 
-We include here, in the `Figure 2` directory, code for generating synthetic spatial data. The `syntheticdata` directory contains the synthetic ground truth cell type maps, TopACT predictions, and RCTD predictions analyzed in the paper. Code for producing Figure 2B, showing example classifications, and Figure 2C, showing the accuracies of these methods, is also included in the `Figure 2` directory. Note that we do not include specific code used to generate these TopACT predictions at this time -- see the below note on clinical data.
+The `Figure 2` directory contains code for generating synthetic data. This data is stored in `syntheticdata`:
+
+- `syntheticdata/groundtruth` records the ground-truth cell type spatial maps
+- `syntheticdata/expression` records the synthetic gene expression data
+
+Also included are TopACT and RCTD predicted cell types generated from the expression data. Note that we do not include specific code used to generate these TopACT predictions at this time -- see the below note on clinical data.
+
+Code for producing Figure 2B, showing example classifications, and Figure 2C, showing the accuracies of these methods, is also included in the `Figure 2` directory.
 
 ## Clinical data
 
