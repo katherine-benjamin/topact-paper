@@ -17,9 +17,11 @@ The `Figure 2` directory contains code for generating synthetic data. This data 
 - `syntheticdata/groundtruth` records the ground-truth cell type spatial maps
 - `syntheticdata/expression` records the synthetic gene expression data
 
-Also included are TopACT and RCTD predicted cell types generated from the expression data. Note that we do not include specific code used to generate these TopACT predictions at this time -- see the below note on clinical data.
+Also included are TopACT and RCTD predicted cell types generated from the expression data.
 
-Code for producing Figure 2B, showing example classifications, and Figure 2C, showing the accuracies of these methods, is also included in the `Figure 2` directory.
+The `Model diffusion.ipynb` notebook contains the code used to perturb generated data according to the molecular diffusion model described in the paper. ALso included are the outputs of this process as well as the correspondong TopACT and RCTD predictions.
+
+The `Figure 2` directory also includes notebooks generating each of Figures 2b,c,d, and e.
 
 ## Clinical data
 
