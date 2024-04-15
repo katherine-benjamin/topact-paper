@@ -1,3 +1,5 @@
+NOTE: This repository is currently being updated to reflect a new version of the manuscript and so details may be innacurate, incomplete, and inconsistent.
+
 This repository contains some of the code and data used for the preprint "Multiscale topology classifies and quantifies cell types in subcellular spatial transcriptomics". Please note that code requiring clinical data will be made available on publication.
 
 The Python package TopACT can be found separately: https://gitlab.com/kfbenjamin/topact. It requires Python (3.10.0 or newer).
