@@ -29,7 +29,7 @@ The `Figure 2` directory also includes notebooks generating each of Figures 2b,c
 
 ## Figure 3
 
-The `Figure 3` directory contains code necessary to extract PVM loci from the TopACT output on the adult mouse brain data set (Chen et al., 2022). Since the data set is very large, we include the relevant subsets of the data in helper files in this directory. The TopACT output file is stored in the large output files data set.
+The `Figure 3` directory contains code necessary to extract PVM loci from the TopACT output on the adult mouse brain data set (Chen et al., 2022). Since the data set is very large, we include the relevant subsets of the data in helper files in this directory. The TopACT output file is stored in the large output files data set. Once PVM loci are extract, two further notebooks detail the generation of the relevant scatter and violin plot figures.
 
 ## Clinical data
 
