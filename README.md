@@ -6,11 +6,15 @@ TopACT is necessary to run the code in this repository. You can install it with
 
 ```pip install git+https://gitlab.com/kfbenjamin/topact.git```.
 
+## Large output files
+
+Large TopACT output files are stored in a separate directory: TBA
+
 ## Figure 1
 
 Code used to generate Figures 1E and 1F are included in the `Figure 1` directory.
 
-## Synthetic data
+## Synthetic data and Figure 2
 
 The `Figure 2` directory contains code for generating synthetic data. This data is stored in `syntheticdata`:
 
@@ -22,6 +26,10 @@ Also included are TopACT and RCTD predicted cell types generated from the expres
 The `Model diffusion.ipynb` notebook contains the code used to perturb generated data according to the molecular diffusion model described in the paper. ALso included are the outputs of this process as well as the correspondong TopACT and RCTD predictions.
 
 The `Figure 2` directory also includes notebooks generating each of Figures 2b,c,d, and e.
+
+## Figure 3
+
+The `Figure 3` directory contains code necessary to extract PVM loci from the TopACT output on the adult mouse brain data set (Chen et al., 2022). Since the data set is very large, we include the relevant subsets of the data in helper files in this directory. The TopACT output file is stored in the large output files data set.
 
 ## Clinical data
 
