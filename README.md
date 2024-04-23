@@ -1,5 +1,3 @@
-NOTE: This repository is currently being updated to reflect a new version of the manuscript and so details may be innacurate, incomplete, and inconsistent.
-
 This repository contains code used for the experiments in the paper "Multiscale topology classifies cells in subcellular spatial transcriptomics".
 
 The Python package TopACT can be found separately: https://gitlab.com/kfbenjamin/topact. It requires Python (3.10.0 or newer).
@@ -7,6 +5,8 @@ The Python package TopACT can be found separately: https://gitlab.com/kfbenjamin
 TopACT is necessary to run the code in this repository. You can install it with
 
 ```pip install git+https://gitlab.com/kfbenjamin/topact.git```.
+
+The TopACT version used in the paper is archived at https://doi.org/10.5281/zenodo.11050773.
 
 ## Data
 
