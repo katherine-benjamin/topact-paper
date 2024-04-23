@@ -10,7 +10,7 @@ TopACT is necessary to run the code in this repository. You can install it with
 
 ## Data
 
-TopACT output, and related output data, are available at DOI GOES HERE. You should download this data set and place it in the base level of this directory before running any code.
+TopACT output, and related output data, are available at https://doi.org/10.5281/zenodo.10950538. You should download this data set and place it in the base level of this directory before running any code.
 
 Raw data files are available online as described in the paper.
 
