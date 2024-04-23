@@ -38,6 +38,10 @@ The `Figure 4` directory contains analysis code for the human kidney Xenium expe
 
 This directory contains analysis code for the Stereo-seq and Vectra mouse kidney experiments. Also included is source data for producing Vectra-related graphs, which is also available with the paper.
 
+## Extended Data Figure
+
+The Extended Data Figure showing ssDNA-based cell segmentation of mouse kidney in comparison to TopACT predictions can be generated with the notebook in the `Extended Figures` directory.
+
 ## RCTD
 
 For experiments on synthetic data, we used RCTD on binned data. Please see the [spacexr package](https://github.com/dmcable/spacexr) for tutorials on using RCTD.
