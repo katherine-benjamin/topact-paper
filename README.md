@@ -1,6 +1,6 @@
 NOTE: This repository is currently being updated to reflect a new version of the manuscript and so details may be innacurate, incomplete, and inconsistent.
 
-This repository contains some of the code and data used for the preprint "Multiscale topology classifies and quantifies cell types in subcellular spatial transcriptomics". Please note that code requiring clinical data will be made available on publication.
+This repository contains code used for the experiments in the paper "Multiscale topology classifies cells in subcellular spatial transcriptomics".
 
 The Python package TopACT can be found separately: https://gitlab.com/kfbenjamin/topact. It requires Python (3.10.0 or newer).
 
@@ -8,36 +8,35 @@ TopACT is necessary to run the code in this repository. You can install it with
 
 ```pip install git+https://gitlab.com/kfbenjamin/topact.git```.
 
-## Large output files
+## Data
 
-Large TopACT output files are stored in a separate directory: TBA
+TopACT output, and related output data, are available at DOI GOES HERE. You should download this data set and place it in the base level of this directory before running any code.
+
+Raw data files are available online as described in the paper.
 
 ## Figure 1
 
 Code used to generate Figures 1E and 1F are included in the `Figure 1` directory.
 
-## Synthetic data and Figure 2
+## Figure 2
 
-The `Figure 2` directory contains code for generating synthetic data. This data is stored in `syntheticdata`:
+The `Figure 2` directory contains code for generating synthetic data.
 
-- `syntheticdata/groundtruth` records the ground-truth cell type spatial maps
-- `syntheticdata/expression` records the synthetic gene expression data
+The `Model diffusion.ipynb` notebook contains the code used to perturb generated data according to the molecular diffusion model described in the paper.
 
-Also included are TopACT and RCTD predicted cell types generated from the expression data.
-
-The `Model diffusion.ipynb` notebook contains the code used to perturb generated data according to the molecular diffusion model described in the paper. ALso included are the outputs of this process as well as the correspondong TopACT and RCTD predictions.
-
-The `Figure 2` directory also includes notebooks generating each of Figures 2b,c,d, and e.
+The directory also includes notebooks generating each of Figures 2b,c,d, and e.
 
 ## Figure 3
 
-The `Figure 3` directory contains code necessary to extract PVM loci from the TopACT output on the adult mouse brain data set (Chen et al., 2022). Since the data set is very large, we include the relevant subsets of the data in helper files in this directory. The TopACT output file is stored in the large output files data set. Once PVM loci are extract, two further notebooks detail the generation of the relevant scatter and violin plot figures.
+The `Figure 3` directory contains code necessary to extract PVM loci from the TopACT output on the adult mouse brain data set (Chen et al., 2022). Since the data set is very large, we include the relevant subsets of the data in helper files in this directory. Once PVM loci are extracted, two further notebooks detail the generation of the relevant scatter and violin plot figures.
 
-## Clinical data
+## Figure 4
 
-Clinical data for the preprint is currently not available. As such, this repository does not contain specific code used to produce TopACT predictions for either clinical or synthetic data (the latter requiring a clinical snRNA-seq reference data set). Clinical data, and all relevant code, will be made available on publication.
+The `Figure 4` directory contains analysis code for the human kidney Xenium experiment. It also contains the Xenium output cell boundaries and corresponding supervised annotation for convenience. `dapi.png` and `hande.png` are images used to generate figures. 
 
-For synthetic data, a pickled version of the classifier used is available on request. However, due to the security risks inherent with pickling python objects, we do not publish it here.
+## Figure 5
+
+This directory contains analysis code for the Stereo-seq and Vectra mouse kidney experiments. Also included is source data for producing Vectra-related graphs, which is also available with the paper.
 
 ## RCTD
 
